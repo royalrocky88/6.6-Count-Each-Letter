@@ -1,0 +1,75 @@
+/* Write your code here. */
+
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: roboto;
+}
+
+.input-card-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px;
+  height: auto;
+  width: 50%;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.describe {
+  font-size: 20px;
+}
+
+.input-card {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: bolder;
+  outline: none;
+  color: #ffffff;
+}
+
+.count-card {
+  margin-top: 30px;
+  padding: 10px;
+  height: 50px;
+  width: 250px;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: #ffffff;
+  color: #219a6f;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-card {
+  width: 70%;
+  padding: 20px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
